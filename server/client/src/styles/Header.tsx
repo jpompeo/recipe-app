@@ -1,26 +1,28 @@
 import React from 'react';
 import Styled from 'styled-components'
-// import ginghamBackground from '../assets/gingham.png'
-/*background-image: url(`${ginghamBackground}`);*/
+import ginghamBackground from '../assets/gingham.png'
+/*background-image: url('../assets/gingham.png');*/
 
 export const PageHeader = Styled.header`
 width: 100%;
 margin: 0 0 20px;
-background-color: #a7eddc;
+background-color: #FFF178;
 background-repeat: repeat-x;
-border-bottom: rgba(132, 141, 139, .3) solid 5px;
-border-top: rgba(132, 141, 139, .3) solid 5px;
+border-bottom: rgba(143, 142, 127, .3) solid 5px;
+border-top: rgba(143, 142, 127, .3) solid 5px;
 text-align: center;
-padding: 10px 0 10px;
+padding: 10px 0;
 `;
 
 export const Logo = Styled.h1`
 color: #636A68;
 font-size: 40px;
 font-weight: bold;
-font-family: 'Sanchez', serif;
-span {
-    font-family: 'Rock Salt', cursive;
-    font-size: 40px;
-}
+font-family: 'Merienda', cursive;
+// span {
+//     font-family: 'Merienda', cursive;
+//     font-size: 40px;
+// }
 `;
+
+
