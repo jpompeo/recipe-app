@@ -1,8 +1,11 @@
 import React from 'react';
+import { PageHeader, Logo } from '../styles/Header'
 
 function App() {
   return (
-    <header>Hello World</header>
+    <PageHeader>
+      <Logo><span>Custom</span> Cookbook</Logo>
+    </PageHeader>
   );
 }
 
