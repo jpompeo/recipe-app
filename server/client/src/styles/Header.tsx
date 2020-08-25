@@ -15,8 +15,8 @@ padding: 10px 0;
 `;
 
 export const Logo = Styled.h1`
-color: #636A68;
-font-size: 40px;
+color: rgba(107, 107, 95, 1);
+font-size: 30px;
 font-weight: bold;
 font-family: 'Merienda', cursive;
 // span {
